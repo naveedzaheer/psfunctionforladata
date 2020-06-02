@@ -14,6 +14,20 @@
       "type": "http",
       "direction": "out",
       "name": "Response"
+    },
+    {
+      "name": "outputBlob",
+      "direction": "out",
+      "type": "blob",
+      "path": "lablobs/{rand-guid}",
+      "connection": "nzladatastore_STORAGE"
+    },
+    {
+      "name": "outputTable",
+      "direction": "out",
+      "type": "table",
+      "tableName": "latabledata",
+      "connection": "nzladatastore_STORAGE"
     }
   ]
 }
