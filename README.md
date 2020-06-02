@@ -1,1 +1,1 @@
-# PowerShell Functions to dwnload Log Analytics Data from a Workspace
+# PowerShell Functions to download Log Analytics Data from a Workspace
